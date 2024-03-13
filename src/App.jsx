@@ -5,16 +5,16 @@ import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <>
+    <div className="container mx-auto">
       <header>
         <Header></Header>
       </header>
 
-      <main className="flex">
+      <main className="flex flex-col md:flex-row md:gap-8 px-4">
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </main>
-    </>
+    </div>
   );
 }
 

@@ -1,12 +1,18 @@
-import "./Blogs.css"
-import Blog from '../Blog/Blog'
+import "./Blogs.css";
+import Blog from "../Blog/Blog";
 
 const Blogs = () => {
   return (
-    <div  className="w-2/3 bg-red-400">
-        <Blog></Blog>
+    <div className="md:w-2/3 w-full">
+      <Blog></Blog>
+      <Blog></Blog>
+      <Blog></Blog>
+      <Blog></Blog>
+      <Blog></Blog>
+      <Blog></Blog>
+      <Blog></Blog>
     </div>
-  )
-}
+  );
+};
 
-export default Blogs
+export default Blogs;

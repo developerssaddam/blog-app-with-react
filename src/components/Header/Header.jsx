@@ -3,9 +3,11 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 mb-5">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">Knowledge Cafe</a>
+        <a className="btn btn-ghost text-2xl md:text-4xl font-bold">
+          Knowledge Cafe
+        </a>
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end">

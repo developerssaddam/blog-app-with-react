@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Exploring the Cosmos",
+    "cover": "https://i.ibb.co/bgSR4V4/stars-2643089-640.jpg",
+    "author": "Astronomy Guru",
+    "author_img": "https://i.ibb.co/X8vGVMC/6.jpg",
+    "post_date": "2024-03-13",
+    "reading_time": "10 mins",
+    "hashtags": ["space", "astronomy", "science"]
+  },
+  {
+    "id": 2,
+    "title": "The Art of Cooking",
+    "cover": "https://i.ibb.co/zfmyq0p/chef-finishing-her-plate-almost-600nw-515248924.webp",
+    "author": "Chef Master",
+    "author_img": "https://i.ibb.co/0nGGKB9/5.webp",
+    "post_date": "2024-03-12",
+    "reading_time": "15 mins",
+    "hashtags": ["cooking", "recipes", "food"]
+  },
+  {
+    "id": 3,
+    "title": "Gardening Tips and Tricks",
+    "cover": "https://i.ibb.co/B3NjjGZ/gardening-news-e1531340866609.jpg",
+    "author": "Green Thumb",
+    "author_img": "https://i.ibb.co/zZ7MZfN/4.jpg",
+    "post_date": "2024-03-11",
+    "reading_time": "12 mins",
+    "hashtags": ["gardening", "plants", "outdoors"]
+  },
+  {
+    "id": 4,
+    "title": "Fitness Journey",
+    "cover": "https://i.ibb.co/f0XXJTJ/images.jpg",
+    "author": "FitFam",
+    "author_img": "https://i.ibb.co/tC8fMw0/3.webp",
+    "post_date": "2024-03-10",
+    "reading_time": "20 mins",
+    "hashtags": ["fitness", "running", "exercise"]
+  },
+  {
+    "id": 5,
+    "title": "Photography Basics",
+    "cover": "https://i.ibb.co/55GVLXq/photography-for-beginners-facebook.webp",
+    "author": "Shutterbug",
+    "author_img": "https://i.ibb.co/FhBRpCC/2.jpg",
+    "post_date": "2024-03-09",
+    "reading_time": "18 mins",
+    "hashtags": ["photography", "camera", "art"]
+  },
+  {
+    "id": 6,
+    "title": "DIY Home Decor",
+    "cover": "https://i.ibb.co/M9Q04XV/DIY-Decorative-Book-Covers-4.jpg",
+    "author": "Crafty Creator",
+    "author_img": "https://i.ibb.co/4fFBW73/1.webp",
+    "post_date": "2024-03-08",
+    "reading_time": "22 mins",
+    "hashtags": ["diy", "homedecor", "crafts"]
+  }
+]
