@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 const Bookmark = ({ markAsRead, readingTime }) => {
+  console.log(markAsRead);
   return (
     <div>
       <h2 className="bg-[#EFECFD] border border-[#6047EC] p-3 md:p-4 rounded-lg text-lg text-center md:text-2xl md:text-start text-[#6047EC] font-bold mb-8">

@@ -1,17 +1,8 @@
 import "./Blogs.css";
 import Blog from "../Blog/Blog";
-import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
-const Blogs = ({ handlemarkAsRead, handleReadingTime }) => {
-  const [blogs, setBlogs] = useState([]);
-
-  useEffect(() => {
-    fetch("../../../db/db.json")
-      .then((res) => res.json())
-      .then((data) => setBlogs(data));
-  }, []);
-
+const Blogs = ({ blogs, handlemarkAsRead, handleReadingTime }) => {
   return (
     <div className="md:w-2/3 w-full">
       {blogs.map((blog, index) => (
@@ -27,6 +18,7 @@ const Blogs = ({ handlemarkAsRead, handleReadingTime }) => {
 };
 
 Blogs.propTypes = {
+  blogs: PropTypes.array.isRequired,
   handlemarkAsRead: PropTypes.func.isRequired,
   handleReadingTime: PropTypes.func.isRequired,
 };

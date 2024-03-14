@@ -39,7 +39,7 @@ const Blog = ({ blog, handlemarkAsRead, handleReadingTime }) => {
           className="reading_time flex gap-2 items-center"
         >
           <span>{reading_time}</span>
-          <CiBookmark />
+          <CiBookmark className="text-red-600 text-lg font-extrabold" />
         </button>
       </div>
       <h2 className="title text-2xl md:text-4xl font-bold">{title}</h2>
